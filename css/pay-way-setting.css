@@ -1,0 +1,44 @@
+.header {
+    height: 0.45rem;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+
+.icon-left {
+    position: absolute;
+    left: 0.2rem;
+}
+.container{
+    height: 3.65rem;
+    margin-top: 0.4rem;
+}
+.way-item{
+    height: 0.9rem;
+    margin-top: 0.3rem;
+}
+.w7{
+    width: 70%;
+    position: relative;
+}
+.w7 p{
+    padding-left: 0.2rem;
+}
+.w7 p:first-child{
+    font-size: 0.3rem;
+}
+.w7 p:last-child{
+    font-size: 0.2rem;
+    margin-top: 0.2rem;
+    color: #666;
+}
+.w3{
+    width: 30%;
+    line-height: 0.9rem;
+}
+.w3 img{
+    width: 0.3rem;
+    margin-left: 0.2rem;
+    position: absolute;
+    right: 0.7rem;
+    margin-top: 0.28rem;
+}

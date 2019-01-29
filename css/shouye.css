@@ -1,0 +1,106 @@
+.box{
+	width: 100%;
+}
+.head{
+	width: 100%;
+	height: 1.1rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: #000;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.head img{
+	width: 0.2rem;
+}
+
+.menu{
+	width: 0.4rem !important;
+}
+.search{
+	width: 5.8rem;
+	height: 0.55rem;
+	line-height: 0.55rem;
+	border-radius: 0.55rem;
+	background: #fff;
+	
+}
+.search img{
+	width: 0.3rem;
+	margin: 0 0.15rem;
+	vertical-align: middle;
+}
+.search input{
+	width: 80%;
+	border: 0;
+}
+.guan_box{
+	height: 1.6rem;
+	background: #000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	margin-top: 1.1rem;
+}
+.guan_box dl{
+	display: flex;
+	margin-left: 0.2rem;
+	height: 1.05rem;
+	align-items: center;
+}
+.guan_box dt{
+	margin-right: 0.24rem;
+}
+.guan_box img{
+	width: 1.05rem;
+}
+.gz{
+	width: 1.1rem;
+	line-height: 0.36rem;
+	background: #f30502;
+	text-align: center;
+	border-radius: 0.1rem;
+	margin-right: 0.3rem;
+}
+.main{
+	margin-bottom: 1rem;
+}
+.main img{
+	width: 100%;
+	font-size: 0;
+}
+
+.footer{
+	height: 1rem;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: #fff;
+}
+.footer dl{
+	text-align: center;
+	border-right: 0.01rem solid #d3d3d3;
+	font-size: 0.24rem;
+	color: #7f8699;
+}
+.footer dt{
+	margin-bottom: 0.1rem;
+}
+.footer img{
+	width: 0.36rem;
+}
+.spfl{
+	width: 3.08rem;
+}
+.dpjj{
+	width: 3.26rem;
+}
+.kfzx{
+	width: 1.16rem;
+	border: 0;
+}

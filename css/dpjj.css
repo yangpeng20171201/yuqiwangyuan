@@ -1,0 +1,55 @@
+.box{
+	width: 100%;
+}
+.head{
+	text-align: center;
+	line-height: 0.66rem;
+	/* border-bottom: 0.02rem solid #948f89; */
+}
+.main{
+	width: 100%;
+	height: 12.16rem;
+	background: url(../imgs/dpjj_bj.jpg) no-repeat left top;
+	background-size: 100%;
+	position: relative;
+	margin-bottom: 1rem;
+}
+.djjrgw{
+	position: absolute;
+	left: 1.72rem;
+	bottom: 2.54rem;
+}
+.djjrgw img{
+	width: 4.45rem;
+}
+.footer{
+	height: 1rem;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: #fff;
+}
+.footer dl{
+	text-align: center;
+	border-right: 0.01rem solid #d3d3d3;
+	font-size: 0.24rem;
+	color: #7f8699;
+}
+.footer dt{
+	margin-bottom: 0.1rem;
+}
+.footer img{
+	width: 0.36rem;
+}
+.spfl{
+	width: 3.08rem;
+}
+.dpjj{
+	width: 3.26rem;
+}
+.kfzx{
+	width: 1.16rem;
+	border: 0;
+}

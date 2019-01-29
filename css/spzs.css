@@ -1,0 +1,128 @@
+.head{
+	width: 100%;
+	height: 1.15rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: #fff;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.head img{
+	width: 0.2rem;
+}
+
+.menu{
+	width: 0.4rem !important;
+}
+.search{
+	width: 5.8rem;
+	height: 0.55rem;
+	line-height: 0.55rem;
+	border-radius: 0.55rem;
+	background: #e6e6e6;
+	
+}
+.search img{
+	width: 0.3rem;
+	margin: 0 0.15rem;
+	vertical-align: middle;
+}
+.search input{
+	width: 80%;
+	border: 0;
+	background: none;
+}
+.fenge{
+	height: 0.06rem;
+	background: #ededed;
+}
+.main{
+	margin-top: 1.15rem;
+	margin-bottom: 1rem;
+}
+.weizhi{
+	line-height: 0.6rem;
+	border-bottom: 0.02rem solid #e8e8e8;
+}
+.weizhi p{
+	margin-left: 0.24rem;
+}
+.paixu{
+	line-height: 0.74rem;
+}
+.paixu img{
+	width: 0.14rem;
+	margin-left: 0.05rem;
+	vertical-align: middle;
+}
+.paixu span{
+	display: inline-block;
+	width: 1.4rem;
+	text-align: center;
+}
+.paixu span:nth-child(2){
+	color: #0096ff;
+}
+.sp_box{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.sp{
+	width: 49.2%;
+	height: 4.14rem;
+	border-right: 0.01rem solid #dadada;
+	border-bottom: 0.01rem solid #dadada;
+	text-align: center;
+	font-size: 0.24rem;
+}
+.sp img{
+	width: 2.04rem;
+	margin: 0.25rem 0;
+}
+.sp_miaoshu{
+	width: 3rem;
+	margin: 0 auto;
+	line-height: 0.32rem;
+	text-align: left;
+}
+.sp_price{
+	width: 3rem;
+	margin: 0 auto;
+	color: red;
+	text-align: left;
+	margin-top: 0.1rem;
+}
+.footer{
+	height: 1rem;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: #fff;
+}
+.footer dl{
+	text-align: center;
+	border-right: 0.01rem solid #d3d3d3;
+	font-size: 0.24rem;
+	color: #7f8699;
+}
+.footer dt{
+	margin-bottom: 0.1rem;
+}
+.footer img{
+	width: 0.36rem;
+}
+.spfl{
+	width: 3.08rem;
+}
+.dpjj{
+	width: 3.26rem;
+}
+.kfzx{
+	width: 1.16rem;
+	border: 0;
+}

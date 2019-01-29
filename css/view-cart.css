@@ -1,0 +1,41 @@
+#container{
+	width: 6.76rem;
+	margin: 0 auto;
+}
+.gjfzw{
+	height: 4.46rem;
+	border-bottom: 0.01rem solid #d4d4d4;
+}
+.gjfzw-head{
+	height: 0.64rem;
+	line-height: 0.64rem;
+	border-bottom: 1px solid #dedede;
+}
+.gjfzw-head img:first-child{
+	   width: 0.3rem;
+}
+.gjfzw-head img:nth-child(2){
+	width: 0.28rem;
+	margin-left: 0.3rem;
+
+}
+.gjfzw-head span{
+margin-left: 0.1rem;
+}
+.clothes-list-item {
+	height: 1.36rem;
+	position: relative;
+}
+.clothes-list-item img{
+	width: 0.3rem;
+	position: absolute;
+	top: 40%;
+}
+.cloth-info{
+	width: 6rem;
+	height: 1.68rem;
+	float: right;
+}
+.img-box{
+   width: 1.36rem;
+}

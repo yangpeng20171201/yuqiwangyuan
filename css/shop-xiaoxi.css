@@ -1,0 +1,64 @@
+.header {
+    height: 0.7rem;
+    margin-top: 0.4rem;
+}
+
+.header a {
+    margin-left: 0.34rem;
+}
+
+.header a img {
+    width: 0.23rem;
+    height: 0.38rem;
+}
+
+.xiaoxi {
+    display: inline-block;
+    margin-left: 160px;
+    font-size: 21px;
+}
+
+.message-lists {
+    width: 100%;
+}
+
+.message-list-item {
+    height: 1.45rem;
+    margin-top: 0.2rem;
+}
+.touxiang{
+   width: 20%;
+   height: 1.45rem;
+}
+.touxiang img {
+    width:0.9rem;
+    padding-left: 0.33rem;
+    padding-top: 0.1rem;
+}
+.touxiang,.xiaoxi-content{
+display: inline-block;
+}
+.xiaoxi-content{
+    width: 80%;
+    float: right;
+    height: 1.45rem;
+    border-bottom: 0.01rem solid #666;
+}
+.xiaoxi-content p{
+    font-size: 0.12rem;
+    margin-top: 0.2rem;
+}
+.info-box span:first-child{
+    width: 0.46em;
+    height: 0.2rem;
+    background-color: #3f91f4;
+    border-radius: 0.3rem;
+    color: #fff;
+    font-size: 0.15rem;
+    margin: 10px;
+}
+.time{
+	color: #666666;
+	font-size: 0.18rem;
+	margin-right: 0.2rem;
+}

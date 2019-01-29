@@ -1,0 +1,37 @@
+/*清全局样式*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+}
+input{
+	outline: none;
+}
+a {
+	text-decoration: none;
+}
+.clearfix:after{
+	content: ".";
+	clear: both;
+	display: block;
+	overflow: hidden;
+	font-size: 0;
+	height: 0;
+}
+html body{
+	font-family: "microsoft yahei";
+	font-size: 0.28rem;
+}
+.l{
+	float: left;
+}
+.r{
+	float: right;
+}
+.c{
+	clear: both;
+}

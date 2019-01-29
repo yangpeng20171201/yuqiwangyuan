@@ -1,0 +1,151 @@
+/*头部*/
+
+.header {
+	width: 100%;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	text-align: center;
+	position: relative;
+}
+
+.header img {
+	width: 0.24rem;
+	height: 0.34rem;
+	position: absolute;
+	top: 0.1rem;
+	left: 0.2rem;
+}
+
+.header span {
+	font-size: 0.34rem;
+	color: #5e5e5e;
+}
+
+
+/*售后按钮*/
+
+#btn-pj-center {
+	width: 100%;
+	height: 0.4rem;
+	margin-top: 0.14rem;
+}
+
+.btn-box-an {
+	width: 50%;
+	float: left;
+	text-align: center;
+	color: #737373;
+	font-size: 0.3rem;
+}
+
+.btn-bottom {
+	color: #FF0000;
+	border-bottom: 2px solid #FF0000;
+}
+
+
+/*主体内容*/
+
+.mian {
+	margin-bottom: 2rem;
+	margin-top: 0.36rem;
+}
+
+
+/*处理中*/
+
+.clz {
+	display: block;
+}
+
+.dind-box {
+	height: 2.6rem;
+	margin-bottom: 0.3rem;
+}
+.dind-box:before{
+	display: block;
+	content: "";
+	clear: both;
+	overflow: hidden;
+}
+.info-title {
+	height: 0.36rem;
+}
+
+.info-title>div {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	letter-spacing: 0.02rem;
+	padding: 0rem 0.24rem;
+	font-size: 0.26rem;
+}
+.sh1{
+	width: 0.3rem;
+	margin-right: 0.08rem;
+}
+.info-content{
+	margin-top: 0.38rem;
+	height: 1.76rem;
+}
+.imgbox{
+	width: 2.12rem;
+}
+.imgbox img{
+	width: 1.74rem;
+	height: 1.68rem;
+}
+/*待评价*/
+.info-box{
+	width: 5.08rem;
+	font-size: 0.26rem;
+}
+.dpj {
+	display: none;
+}
+.bc{
+	color: #666666;
+}
+.intro span{
+	line-height: 0.22rem;
+	font-size: 0.12rem;
+	background-color: #c8e0fa;
+	color: #4995f3;
+	text-align: center;
+	padding: 0.06rem 0.13rem;
+	border-radius: 0.3rem;
+}
+.jiejbf span{
+	line-height: 0.32rem;
+	font-size: 0.2rem;
+    padding: 0.04rem 0.18rem;
+	color: #ff5956;
+	border: 1px solid #ff9d9c;
+	border-radius: 0.2rem;
+    margin-left: 0.24rem;
+}
+/*下面的按钮组*/
+
+.btn-box {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background-color: #dbdfde;
+	margin-top: 0.82rem;
+}
+
+.btn-box ul li {
+	width: 33%;
+	height: 0.82rem;
+	line-height: 0.82rem;
+	text-align: center;
+	float: left;
+	border-right: 0.02rem solid #000;
+	font-size: 0.34rem;
+	letter-spacing: 0.05rem;
+}
+
+.active {
+	border-right: none !important;
+	background-color: #fff;
+}

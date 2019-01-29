@@ -1,0 +1,77 @@
+/*清全局样式*/
+
+body,
+html,
+div,
+ul,
+ol,
+li,
+i,
+p,
+input,
+button,
+tbody,
+th,
+tr,
+td,
+span,
+i,
+img {
+	margin: 0;
+	padding: 0;
+}
+
+html body {
+	font-family: "microsoft yahei";
+}
+
+html {
+	font-size：62.5%
+}
+
+body {
+	font-size：1.2rem;
+}
+
+ul li {
+	list-style: none;
+}
+
+a {
+	color: #666666;
+	text-decoration: none;
+}
+
+i {
+	font-style: normal;
+}
+
+input,
+button {
+	border: 0;
+}
+
+em {
+	font-style: normal;
+}
+
+.clearfix:after {
+	content: ".";
+	clear: both;
+	display: block;
+	overflow: hidden;
+	font-size: 0;
+	height: 0;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}

@@ -1,0 +1,230 @@
+.header {
+    height: 0.46rem;
+    margin-top: 0.15rem;
+    padding-left: 0.3rem;
+}
+
+.header img:first-child {
+    width: 0.2rem;
+}
+
+.header img:last-child {
+    width: 0.36rem;
+    float: right;
+    margin-right: 0.2rem;
+}
+
+.header span {
+    width: 1.34rem;
+    display: inline-block;
+    margin-left: 2.1rem;
+    margin-right: 2.1rem;
+    position: relative;
+    top: -0.1rem;
+    font-size: 0.33rem;
+    color: #666;
+}
+
+.state-box {
+    height: 0.8rem;
+    margin-top: 0.2rem;
+}
+
+.state-box div:nth-child(2) {
+    border-right: none;
+}
+
+.box-father {
+    width: 49.5%;
+    float: left;
+    border-right: 0.02rem solid #aaa;
+}
+
+.active {
+    border-bottom: 0.04rem solid #FF0000;
+}
+
+.pingjiayu {
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+}
+
+.box-child {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.box-child span {
+    display: block;
+    text-align: center;
+}
+
+.box-child span:last-child {
+    color: #3f91f4;
+}
+
+.evaluate-box {
+    margin-top: 0.28rem;
+}
+
+.evaluate-box p img {
+    position: relative;
+    top: 0.03rem;
+}
+
+.name-number {
+    margin-left: 0.2rem;
+    margin-right: 0.1rem;
+}
+
+.yq-title {
+    padding-left: 0.2rem;
+    margin-top: 0.3rem;
+}
+
+.yq-title span {
+    margin-right: 0.2rem;
+    position: relative;
+    top: -0.05rem;
+    font-size: 0.3rem;
+}
+
+.yq-title img {
+    width: 0.24rem;
+}
+
+.yq-title span:last-child {
+    margin-right: 0.2rem;
+    color: #ff0000;
+}
+
+.time {
+    font-size: 0.2rem;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+    color: #ccc;
+}
+
+.yq-imgbox {
+    width: 1.96rem;
+}
+
+.yq-body {
+    margin-top: 0.2rem;
+}
+
+.yq-imgbox img {
+    height: 1.8rem;
+}
+
+.yq_info {
+    width: 4.87rem;
+    height: 1.8rem;
+}
+
+.yq_info_fp span {
+    display: inline-block;
+    font-size: 0.18rem;
+}
+
+.yq_info_fp span:nth-child(1) {
+    width: 3.34rem;
+}
+
+.yq_info_fp span:last-child {
+    margin-top: 0.1rem;
+}
+
+.yuqibox {
+    margin-top: 1rem;
+}
+
+.yq-nv span {
+    font-size: 0.18rem;
+}
+
+.yq-nv span:last-child {
+    margin-top: 0.1rem;
+    color: #666;
+}
+
+.bc {
+    margin-top: 0.16rem;
+    color: #666;
+    font-size: 0.18rem;
+}
+
+.yq-state span {
+    width: 0.76rem;
+    height: 0.23rem;
+    line-height: 0.22rem;
+    background-color: #c8e1ff;
+    color: #3f91f4;
+    margin-right: 0.2rem;
+    border-radius: 0.1rem;
+    font-size: 0.12rem;
+}
+
+.yq_info p:last-child {
+    font-size: 0.18rem;
+}
+
+.btn {
+    height: 0.4rem;
+}
+
+.btn span {
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    display: block;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    text-align: center;
+    border: 0.01rem solid #a7a7a7;
+    border-radius: 0.1rem;
+    font-size: 0.18rem;
+    float: right;
+}
+
+.btn span {
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    display: block;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    text-align: center;
+    border: 0.01rem solid #a7a7a7;
+    border-radius: 0.1rem;
+    font-size: 0.18rem;
+    float: left;
+    margin-top: 0.1rem;
+}
+
+.btn span:last-child {
+    margin-left: 0.2rem;
+    color: #ff5656;
+    border: 0.01rem solid #ff5656;
+    margin-top: 0.3rem;
+}
+
+.btn-box {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #dbdfde;
+}
+
+.btn-box ul li {
+    width: 33%;
+    height: 0.82rem;
+    line-height: 0.82rem;
+    text-align: center;
+    float: left;
+    font-size: 0.35rem;
+    border-right: 0.02rem solid #000;
+}
+
+.btn-box ul li:last-child {
+    border-right: none;
+    background-color: #fff;
+}

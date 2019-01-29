@@ -1,0 +1,81 @@
+.header {
+  height: 0.45rem;
+  padding-top: 0.2rem;
+}
+
+.header a {
+  position: absolute;
+  left: 0.3rem;
+}
+
+.header span {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  font-size: 0.3rem;
+}
+
+#person-info {
+	margin-top: 0.3rem;
+}
+#person-info::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+.number {
+	color: #333;
+}
+
+#person-info p {
+	height: 0.5rem;
+}
+
+#person-info .name {
+	color: #666666;
+}
+
+#person-info span:nth-child(2) {
+	margin-left: 0.7rem;
+}
+
+#person-info span em {
+	background-color: #3f91f4;
+	border-radius: 0.1rem;
+	color: #fff;
+	font-size: 0.15rem;
+	margin: 0 auto;
+	padding: 0rem 0.05rem;
+}
+
+.address {
+	width: 4.3rem;
+}
+
+.tb {
+	border-bottom: 0.02rem solid #666;
+}
+
+.address,
+.bj {
+	margin-top: 0.14rem;
+	font-size: 0.24rem;
+	color: #666;
+}
+
+.add-new-address {
+	width: 3.72rem;
+	height: 0.56rem;
+	background-color: #3f91f4;
+	color: #fff;
+	text-align: center;
+	line-height: 0.56rem;
+	position: fixed;
+	;
+	font-size: 0.2rem;
+	bottom: 1rem;
+	border-radius: 0.34rem;
+	margin-left: 17%;
+}

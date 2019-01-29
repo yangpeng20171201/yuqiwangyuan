@@ -1,0 +1,63 @@
+html,body{
+	background: #ededed;
+}
+.box{
+	width: 100%;
+}
+.head{
+	background: #fff;
+	position: relative;
+	line-height: 1rem;
+	text-align: center;
+}
+.back{
+	position: absolute;
+	left: 0.26rem;
+	top: 0.1rem;
+}
+.back img{
+ 	width: 0.2rem;
+}
+.search{
+	margin: 0.12rem 0;
+	background: #fff;
+	padding: 0.2rem 0;
+}
+.sousuo{
+	margin: 0 auto;
+	width: 5.68rem;
+	height: 0.54rem;
+	border-radius: 0.54rem;
+	border: 0.01rem solid #a7a7a7;
+}
+.sousuo img{
+	width: 0.3rem;
+	vertical-align: middle;
+	margin: 0 0.15rem;
+}
+.sousuo input{
+	width: 80%;
+	border: none;
+	line-height: 0.5rem;
+}
+.dianpu{
+	background: #fff;
+}
+.dianpu_title{
+	height: 1.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.dianpu_name img{
+	width: 0.9rem;
+}
+.dianpu_name{
+	margin-left: 0.38rem;
+}
+.jdgg{
+	margin-right: 0.48rem;
+}
+.dianpu_name span{
+	font-weight: 600;
+}
